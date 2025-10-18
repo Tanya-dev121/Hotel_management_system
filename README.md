@@ -45,7 +45,7 @@ A console-based Hotel Management System in C++ that allows **Admins** to manage 
 
 3.  Compile the program:
       ```bash
-   g++ -o HotelManagement.exe hotel.cpp
+     g++ -o HotelManagement.exe hotel.cpp
 
 4. Run the executable:
     ```bash
