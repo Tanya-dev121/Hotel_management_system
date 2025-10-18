@@ -26,83 +26,30 @@ A console-based Hotel Management System in C++ that allows **Admins** to manage 
 - Input validation for safer operations
 
 ---
+## Getting Started
 
-Getting Started
-Prerequisites
+### Prerequisites
+- Windows / Linux / macOS
+- C++ compiler (g++, MinGW, or any standard C++ compiler)
 
-Windows / Linux / macOS
+### Running the Program
 
-C++ compiler (g++, MinGW, or any standard C++ compiler)
+#### On Windows
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/HotelManagement.git
 
-Running the Program
-On Windows
+2. Navigate to the project folder:
+   ```bash
+   cd HotelManagement
 
-Clone the repository:
+3.  Compile the program:
+      ```bash
+   g++ -o HotelManagement.exe hotel.cpp
 
-git clone https://github.com/YOUR_USERNAME/HotelManagement.git
-
-
-Navigate to the project folder:
-
-cd HotelManagement
-
-
-Compile the program:
-
-g++ -o HotelManagement.exe hotel.cpp
-
-
-Run the executable:
-
-HotelManagement.exe
-
-On Linux / macOS
-
-Clone the repository:
-
-git clone https://github.com/YOUR_USERNAME/HotelManagement.git
-
-
-Navigate to the project folder:
-
-cd HotelManagement
-
-
-Compile the program:
-
-g++ -o HotelManagement hotel.cpp
-
-
-Run the executable:
-
-./HotelManagement
-
-Usage
-
-Choose Role: Admin or Customer
-
-Admin Password: admin123
-
-Admin can add rooms, view all rooms, and view bookings.
-
-Customer can view rooms, book rooms, and cancel their own bookings only.
-
-Project Structure
-HotelManagement/
-│
-├── hotel.cpp       # Main C++ source code
-├── rooms.txt       # Stores room information
-├── Booking.txt     # Stores booking information
-└── README.md       # Project description
-
-Technologies
-
-C++ – Core programming language
-
-File Handling – Persistent storage of rooms and bookings
-
-Console UI – Simple text-based interface with colored output
+4. Run the executable:
+    ```bash
+   HotelManagement.exe
 
 Author
-
 Tanya Goel
